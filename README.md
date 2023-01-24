@@ -1,6 +1,6 @@
-### Hi there 👋
+# Welcome to BigLogano's depository 👋
 
-### Arsenal is winning the leauge
+## Arsenal is winning the leauge
 ### I'm currently working on a football database for predictive statistics.
 
 <!--
