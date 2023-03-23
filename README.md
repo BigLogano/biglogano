@@ -10,3 +10,6 @@
 
 "You never really learn much from hearing yourself talk"  
 -- George Clooney
+
+[Cartoons](cartoons.html)
+[New User](newuser.html)

@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+            New User Sign Up
+        </title>
+    </head>
+
+    <body>
+        <form>
+            <!--First Name-->
+            <label for="first_name">First Name: </label>
+			<br/>
+			<input id="first_name" name="first_name" min="1" max="32" placeholder="Dave"/>
+			<br/>
+
+            <!--Last Name-->
+            <br/>
+            <label for="last_name">Last Name: </label>
+			<br/>
+			<input id="last_name" name="last_name" min="1" max="32" placeholder="Grohl"/>
+			<br/>
+
+            <!--Password-->
+            <br/>
+            <label for="last_name">Password: </label>
+			<br/>
+			<input type="password" id="last_name" name="last_name" placeholder="Keep it Secret!"/>
+			<br/>
+
+            <!--Email-->
+            <br/>
+            <label for="email">email: </label>
+			<br/>
+			<input type="email" id="email" name="email" placeholder="your.email@email.com"/>
+			<br/>
+
+            <!--URL-->
+            <br/>
+            <label for="url">Home Page URL: </label>
+			<br/>
+			<input id="url" name="url" placeholder="hello.com"/>
+			<br/>
+
+            <!--Phone Number-->
+            <br/>
+            <label for="phone">Phone Number:</label>
+			<br/>
+			<input type="tel" id="phone" name="phone" placeholder="440-867-5309" 
+				pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+			<br/>
+
+            <!--Birth Month-->
+            <br/>
+			<label for="month">Birthday Month:</label>
+			<br/>
+			<input type="month" id="month" name="month"/>
+            <br/>
+
+            <!--Email Check-->
+            <br/>
+            <input type="checkbox" id="email_prompt" name="email_prompt" value="true"/>
+			<label id="verify">Can We Email You?</label>
+			<br/>
+
+            <!--Rating Radio-->
+            <br/>
+            <fieldset>
+				<legend>Do You Like Our Product?</legend>
+				<input type="radio" id="1. I HATE it!" name="like_rating" value="1. I HATE it!">
+				<label for="alive">1. I HATE it!</label>
+				<br/>
+				<input type="radio" id="2. I dislike it" name="like_rating" value="2. I dislike it"/>
+				<label for="dead">2. I dislike it</label>
+				<br/>
+				<input type="radio" id="3. It's okay" name="like_rating" value="3. It's okay"/>
+				<label for="undead">3. It's okay</label>
+				<br/>
+				<input type="radio" id="4. I like it" name="like_rating" value="4. I like it"/>
+				<label for="undefined">4. I like it</label>
+				<br/>
+                <input type="radio" id="5. I LOVE IT!" name="like_rating" value="5. I LOVE IT!"/>
+				<label for="undefined">5. I LOVE IT!</label>
+				<br/>
+			</fieldset>
+
+            <!--Action Buttons-->
+            <br/>
+            <input type="submit"/>
+			<input type="reset"/>
+			<br/>
+
+        </form>
+    </body>
+</html>
+
+<!--
+First Name
+Last Name
+Password
+Email
+Phone Number
+URL to a home page
+Birth Month
+Birth Year
+Can we email you checkbox
+A "can we text you" set of radio buttons
+A "Do you like our product" set of radio buttons (the options are "1 - don't like it" to "5 - love it")
+A clear button
+A submit button
+
+-->
